@@ -35,7 +35,7 @@ Below is the updated requirement on the BookStore application:
 
     2) On the click of Home, display a welcome message. This message should be written in .ts file and it should be shown in .html file using binding
 
-    On the click of the Books button on the header, it should open a new page which will show a button to add a new book and it should also display the list of all the books. Display can be a list view or any other design you prefer.
+    3)On the click of the Books button on the header, it should open a new page which will show a button to add a new book and it should also display the list of all the books. Display can be a list view or any other design you prefer.
 
     On the click of button to add new book, it should open a new page which will display a form to enter details of the book and it should be submitted and all the details should be captured to save it into database using web api call.
 

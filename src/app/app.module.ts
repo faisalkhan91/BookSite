@@ -10,6 +10,7 @@ import { BookComponent } from './book/book.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AddBookComponent } from './book/add-book/add-book.component';
+import { ListBookComponent } from './book/list-book/list-book.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AddBookComponent } from './book/add-book/add-book.component';
     BookComponent,
     FooterComponent,
     HomeComponent,
-    AddBookComponent
+    AddBookComponent,
+    ListBookComponent
   ],
   imports: [
     BrowserModule,
