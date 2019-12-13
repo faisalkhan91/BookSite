@@ -17,15 +17,14 @@ export class AddBookComponent implements OnInit {
   constructor(private BookapiService: BookapiService) { }
 
   ngOnInit() {
-    
-    this.book.name = this.signupForm.value.name;
-    this.book.author = this.signupForm.value.author;
-    this.book.email = this.signupForm.value.email;
-    this.book.price = this.signupForm.value.price;
+  }
 
-    console.log(this.book);
+  onSubmit()
+  {
+    //console.log(this.signupForm.value);
+    this.book = new Book(this.signupForm.value.name, this.signupForm.value.author, this.signupForm.value.email, this.signupForm.value.price);
+    //console.log(this.book);
     this.BookapiService.addbook(this.book);
-
   }
 
 }
