@@ -35,19 +35,19 @@ Below is the updated requirement on the BookStore application:
 
     2) On the click of Home, display a welcome message. This message should be written in .ts file and it should be shown in .html file using binding
 
-    3)On the click of the Books button on the header, it should open a new page which will show a button to add a new book and it should also display the list of all the books. Display can be a list view or any other design you prefer.
+    3) On the click of the Books button on the header, it should open a new page which will show a button to add a new book and it should also display the list of all the books. Display can be a list view or any other design you prefer.
 
-    On the click of button to add new book, it should open a new page which will display a form to enter details of the book and it should be submitted and all the details should be captured to save it into database using web api call.
+    4) On the click of button to add new book, it should open a new page which will display a form to enter details of the book and it should be submitted and all the details should be captured to save it into database using web api call.
 
-    Use firebase or implement a webapi which will connect to database for storing the records.
+    5) Use firebase or implement a webapi which will connect to database for storing the records.
 
-    Use httpclient service to connect to the firebase/webapi service to do CRUD operations.
+    6) Use httpclient service to connect to the firebase/webapi service to do CRUD operations.
 
-    Create a seperate service to handle all the CRUD operation on firebase/webapi service.
+    7) Create a seperate service to handle all the CRUD operation on firebase/webapi service.
 
-    Create a book model for capturing the details of the book.
+    8) Create a book model for capturing the details of the book.
 
-    Use Routing for navigating between pages or opening new pages.
+    9) Use Routing for navigating between pages or opening new pages.
 
     You can use this application later for adding more features as required like showing the details of the book after clicking a book or moving a book to the shopping list etc..
 
