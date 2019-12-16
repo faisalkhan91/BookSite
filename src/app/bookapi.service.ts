@@ -18,7 +18,7 @@ export class BookapiService {
       };
   }
 
-  listbook() : Book[]
+  listbooks() : Book[]
   {
       this.http.get<Book[]>('https://bookstore-1c804.firebaseio.com/book.json').subscribe(
       booklistResponse=>{
@@ -35,6 +35,14 @@ export class BookapiService {
   getBook(id: number): Book
   {
     return this.books[id];
+  }
+
+  removebooks()
+  {
+    this.http.delete('https://bookstore-1c804.firebaseio.com/book.json').subscribe(
+      response=>{console.log(response)}),
+      error=>{console.error();
+      };
   }
 
 }

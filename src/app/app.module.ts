@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AddBookComponent } from './book/add-book/add-book.component';
 import { ListBookComponent } from './book/list-book/list-book.component';
+import { RemoveBookComponent } from './book/remove-book/remove-book.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListBookComponent } from './book/list-book/list-book.component';
     FooterComponent,
     HomeComponent,
     AddBookComponent,
-    ListBookComponent
+    ListBookComponent,
+    RemoveBookComponent
   ],
   imports: [
     BrowserModule,
