@@ -8,7 +8,7 @@ import { RemoveBookComponent } from './book/remove-book/remove-book.component';
 
 
 const routes: Routes = [
-  {path: '', redirectTo: '', pathMatch: 'full'},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'book', component: BookComponent, children: [
     {path: 'remove', component: RemoveBookComponent}
