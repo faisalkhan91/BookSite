@@ -20,6 +20,7 @@ export class BookapiService {
 
   listbooks() : Book[]
   {
+      this.books = [];
       this.http.get<Book[]>('https://bookstore-1c804.firebaseio.com/book.json').subscribe(
       booklistResponse=>{
         for(let book in booklistResponse)
